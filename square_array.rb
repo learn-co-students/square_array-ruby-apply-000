@@ -1,7 +1,9 @@
-def square_array(array)
+def square_array(num_array)
   result = []
-  array.each do |e|
-    result << e*e
+
+  num_array.each do |digit|
+    result << digit * digit
   end
- result
+
+  result
 end
