@@ -1,3 +1,9 @@
-def square_array(array)
-  # your code here
+def square_array(num_array)
+  result = []
+
+  num_array.each do |digit|
+    result << digit * digit
+  end
+
+  result
 end
