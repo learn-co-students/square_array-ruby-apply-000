@@ -1,7 +1,7 @@
 def square_array(array)
     array_length = array.length - 1
     i = 0
-    while i <= array_length && >= 0
+    while i <= array_length && i >= 0 do 
       numbers = array.each
       result = numbers**numbers
       new_array.push(result)
