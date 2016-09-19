@@ -20,3 +20,9 @@ describe '#square_array' do
   end
 
 end
+
+def square_array(array)
+  newArray = []
+  array.each {|e| newArray.push(e**2)}
+  return newArray
+end
