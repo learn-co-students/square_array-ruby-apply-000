@@ -1,11 +1,5 @@
 def square_array(array)
-  array.each {|x| x = x*x}
-
-  n= 0
-  while n< array.length
-    array[n] = array[n]*array[n]
-    n +=1
-  end
-  
-  return array
+  new_array = []
+  array.each {|x| new_array << x**2}
+  return new_array
 end
