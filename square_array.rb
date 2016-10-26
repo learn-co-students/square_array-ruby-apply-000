@@ -1,7 +1,7 @@
 def square_array(array)
-  squares = []
-  array.each do |x|
-  squares.push(x**2)
-end
-return squares
+  array_squared = []
+    array.each do |x|
+      array_squared.push(x**2)
+    end
+  return array_squared
 end
