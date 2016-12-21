@@ -4,7 +4,6 @@ def square_array(array) #called an argument on method square_array
   array.each do |x| #.each and do to iterate over each element in string (1, 2, 3). Why the placeholder '|X|'?
     array[y] = x ** 2 #index = 'x' or 'element' 'to the power of' exponent(**) double(2)?
     y+=1 #starts at 0 but then (y)= x**2, 1**2 => 1, 2**2 => 4, 3**2 => 9 or puts (1, 4, 9)
-  print "#{y}"
  end
 end
 square_array(array) #called the argument to return values
@@ -15,7 +14,6 @@ def square_array(new_numbers)
   new_numbers.each do |x|
     new_numbers[y] = x ** 2
     y+=1
-  print "#{y}"
   end
 end
 square_array(new_numbers)
