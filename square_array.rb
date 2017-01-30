@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  newarr = []
+  array.each {|x| newarr.push(x**2)}
+  # return array.map {|x| x**2}
+  return newarr
 end
