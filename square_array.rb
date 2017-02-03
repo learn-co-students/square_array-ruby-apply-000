@@ -17,7 +17,7 @@ def square_array(array)
   # your code here
   new_numbers = []
   #array.each {|num| puts num ** 2}
-  array.each {|num| new_numbers << num ** 2}
+  array.each {|num| new_numbers << num ** 2} ## does << save value of squared numbers to new_numbers??
 
   # puts new_numbers
   return new_numbers
