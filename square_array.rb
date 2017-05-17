@@ -5,3 +5,9 @@ def square_array(array)
   end
   squared
 end
+
+
+######## USING THE .COLLECT METHOD:
+# def square_array(array)
+#   squared = array.collect { |number| number ** 2 }
+# end
