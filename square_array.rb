@@ -5,7 +5,7 @@ def square_array(array)
   new_array #return output
 end
 
-#collect
+#collect code
 
 #def square_array(array)
   #array.collect {|i| i ** 2} #input to output
