@@ -1,10 +1,6 @@
 def square_array(array)
-  output = []
 
-  array.each do |el|
-    output << el ** 2
+  array.collect{|el| el ** 2}
 
-  end
 
-  output
 end
