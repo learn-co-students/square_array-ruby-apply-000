@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  results = []
+  array.each do |porcupine|
+  results << porcupine ** 2
+end
+  return results
 end
