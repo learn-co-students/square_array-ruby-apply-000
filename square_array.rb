@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  square_array = []
+  array.each { |element| square_array << element * element  }
+
+  return square_array
 end
