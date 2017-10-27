@@ -1,3 +1,4 @@
 def square_array(array)
-  array.each {|n| n**2}
+  answer = array.each {|n| n*n}
+  answer
 end
