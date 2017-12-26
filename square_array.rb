@@ -2,18 +2,18 @@
 
 def square_array(array)
 
-#We first initialize the new_array variable
-#This is where we will store the elements that are mutated by the "each" iterator
+  #We first initialize the new_array variable
+  #This is where we will store the elements that are mutated by the "each" iterator
 
   new_array = []
 
-#In this block, we square each element and then shovel the squared element into the new array
+  #In this block, we square each element and then shovel the squared element into the new array
 
   array.each do |element|
     new_array << element**2
   end
 
-#Lastly, we return the new array
+  #Lastly, we return the new array
 
   new_array
 end
