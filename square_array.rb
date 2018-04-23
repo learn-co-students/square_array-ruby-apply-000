@@ -13,6 +13,7 @@ def new_square_array(array)
   new_array = array.collect { |x| x ** 2 }
   puts new_array
 end
+
 =end
 
 
