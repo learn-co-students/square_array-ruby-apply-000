@@ -3,7 +3,7 @@ numbers = [1, 2, 3]
 def square_array(array)
   final_array = []
   array.each { |i| final_array << i ** 2 }
-  puts final_array
+  final_array
 end
   
 
