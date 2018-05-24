@@ -1,3 +1,6 @@
-def square_array(array)
-  # your code here
-end
+def square_array(numbers)
+  result = []
+  numbers.each { |n| result << n**2 }
+  return result
+ end
+
