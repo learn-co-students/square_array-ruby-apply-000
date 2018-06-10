@@ -1,6 +1,17 @@
 
 # Square Array
 
+numbers = [5, 10, 15]
+
+def square_array(array)
+ squared_array = [] 
+ array.each do |number|
+   squared_array << number**2 
+ end
+ squared_array
+end
+
+
 ## Objectives
 1. Practice iterating over an array using the `.each` method.
 2. Practice operating on each element of an array.
