@@ -1,3 +1,10 @@
+array = [1, 2, 3]
+
 def square_array(array)
-  # your code here
+  newarray = []
+  array.each { |i| newarray << i ** 2 }
+  newarray
 end
+
+
+p square_array(array)
