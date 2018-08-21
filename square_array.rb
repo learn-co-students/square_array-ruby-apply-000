@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+  squares = []
+  array.each do |num|
+    squares.push (num * num)
+  end 
+  
+  return squares
+  
+ # array.collect { |num| num * num }
 end
+
