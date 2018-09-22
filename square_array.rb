@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  squared_away = []
+  array.each {| x |squared_away << x * x}
+  return squared_away
 end
