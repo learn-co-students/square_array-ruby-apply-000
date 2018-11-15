@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  do |numeral|
+    square_array.push(numeral**2)
+  end
 end
