@@ -1,4 +1,7 @@
 def square_array(array)
-  numbers = [1,2,3]
-  numbers.each {|n| n ** 2}
+  a1 = []
+  array.each do |n|
+    a1 << n ** 2
+  end
+  a1
 end
