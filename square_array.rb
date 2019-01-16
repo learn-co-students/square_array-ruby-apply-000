@@ -13,3 +13,7 @@ def square_array(numbers)
 end
 
 square_array([1,2,3])
+
+def another_square_array(numbers)
+  numbers.collect {|number| (number**2)}
+end  
