@@ -20,3 +20,16 @@ describe '#square_array' do
   end
 
 end
+
+def square_array(array)
+  newarray = []
+  array.each do |x|
+    newarray << x * x
+  end
+  return newarray
+end
+  
+  
+  
+  
+    
