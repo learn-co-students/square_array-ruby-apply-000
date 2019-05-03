@@ -1,0 +1,4 @@
+num = [2,5,3,6]
+square_array(num)
+new_num=[1,2,3,4,5]
+square_array (new_num)
