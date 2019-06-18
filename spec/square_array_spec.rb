@@ -7,7 +7,7 @@ describe 'square_array' do
     expect(numbers).to_not receive(:collect)
     expect(numbers).to_not receive(:map)
     expect(numbers).to_not receive(:inject)
-    #square_array(numbers)
+    square_array(numbers)
   end
 
   it 'calls on each' do
