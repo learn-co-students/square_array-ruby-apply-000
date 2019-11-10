@@ -1,4 +1,7 @@
-describe '#square_array' do
+def square_array(numbers)
+    numbers.each{|x| x*x}
+
+
 
   it 'does not call on collect/map or inject' do
     numbers = [1,2,3]
