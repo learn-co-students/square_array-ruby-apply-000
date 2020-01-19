@@ -1,3 +1,7 @@
+array = [4,66,33]
+
 def square_array(array)
-  # your code here
+   blank =[]
+   array.each {|i| blank << i**2}
+  return blank
 end
