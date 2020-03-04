@@ -19,4 +19,5 @@ describe '#square_array' do
     expect(square_array([9,10,16,25])).to eq([81,100,256,625])
   end
 
+
 end
