@@ -9,7 +9,7 @@
 
 You will build a method, `square_array`, that squares each element in an array of numbers and returns a new array of these squared numbers. Use an iterator and implement your own logic, *don't* use any built-in array methods other than `.each` (e.g. `.collect`, `.inject`).
 
-A couple of questions that you can ask yourself are: 
+A couple of questions that you can ask yourself are:
 
 * What is the return value of calling `.each` on an array?
 * How can I operate on each element of an array and also collect or store those elements?
@@ -31,6 +31,17 @@ new_numbers = [9,10,16,25]
 
 square_array(new_numbers)
 # => [81,100,256,625]
+
+
+def square_array(array)
+  new_array = []
+  array.each do |index|
+    new_array.push(index ** 2)
+    print new_array
+  end
+  puts new_array
+end
+
 ```
 
 ## Resources
