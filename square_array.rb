@@ -1,7 +1,8 @@
 def square_array(array)
-
-  array.each{|n|
-  n
+index=0
+  array.each{|element|
+    array[index]=element*element
+    index +=1
   }
   # your code here
 end
