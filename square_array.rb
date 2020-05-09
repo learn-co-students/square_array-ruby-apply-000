@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  output = []
+  array.each do |number|
+    truenum = number.to_i**2
+    output << truenum
+  end
+  output
 end
