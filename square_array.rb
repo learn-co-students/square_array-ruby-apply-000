@@ -1,3 +1,18 @@
+
+#using each
 def square_array(array)
-  # your code here
+  answer = []
+  array.each do |x|
+    answer << x ** 2
+  end
+  answer
 end
+
+
+#using map/collect
+=begin
+
+def square_array(array)
+  array.map { |num| num ** 2 }
+end
+=end 
