@@ -4,11 +4,8 @@ new_array=[]
 def square_array(array)
   array.each do |i|
     i = i**2 
-    new_array.push(i)
+    puts i
   end
 end
 
-square_array(numbers)
-
-
-
+square_array(3)
