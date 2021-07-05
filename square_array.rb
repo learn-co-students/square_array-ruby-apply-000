@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  result = []
+  for num in array
+    result.push(num*num)
+  end
+  return result
 end
