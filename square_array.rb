@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+
+  answer_array = []
+
+  array.each do |element|
+    answer_array << element * element
+  end
+
+  answer_array
+  
 end
