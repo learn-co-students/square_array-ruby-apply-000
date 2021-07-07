@@ -9,7 +9,7 @@
 
 You will build a method, `square_array`, that squares each element in an array of numbers and returns a new array of these squared numbers. Use an iterator and implement your own logic, *don't* use any built-in array methods other than `.each` (e.g. `.collect`, `.inject`).
 
-A couple of questions that you can ask yourself are: 
+A couple of questions that you can ask yourself are:
 
 * What is the return value of calling `.each` on an array?
 * How can I operate on each element of an array and also collect or store those elements?
@@ -22,15 +22,24 @@ Once you have the tests passing, see if you can implement this with a higher lev
 ## Expectation Examples
 
 ```ruby
+
+
 numbers = [1,2,3]
+def square_array(numbers)
+  squared = []
+  numbers.each { |n| squared.push(n ** 2) }
+  return squared
+end
+square_array([1,2,3])
 
-square_array(numbers)
-# => [1,4,9])
+square_array = [9,10,16,25]
 
-new_numbers = [9,10,16,25]
+def square_array(new_numbers)
+  new_squared = []
+  square_array.each { |n| new_squared.push(n ** 2) }
+  new_squared
+end
 
-square_array(new_numbers)
-# => [81,100,256,625]
 ```
 
 ## Resources
