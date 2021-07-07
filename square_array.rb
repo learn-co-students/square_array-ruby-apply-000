@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  newarray = []
+  array.each do |item|
+    newarray << item*item
+  end
+  return newarray
 end
