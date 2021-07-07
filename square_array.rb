@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+
+  squares = []
+  array.each {|x| squares << x ** 2}
+  squares
+
+  #Advanced
+
+  #array.collect {|x| x ** 2}
+  
 end
