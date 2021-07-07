@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  answer=[]
+  array.each{|x|answer<< (x*x)}
+  return answer
 end
