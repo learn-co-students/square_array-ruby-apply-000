@@ -1,3 +1,12 @@
 def square_array(array)
-  # your code here
+squared = []
+  array.each do |number|
+    number = number**2
+    squared << number
+  end
+ squared
 end
+
+# def square_array(array)
+#   array.map{ |number| number**2 }
+# end
