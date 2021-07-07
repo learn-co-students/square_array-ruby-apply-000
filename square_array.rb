@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  n = []
+  array.each do |x|
+    n.push(x*x)
+  end
+  return n
 end
+puts square_array([23, 85, 183])
