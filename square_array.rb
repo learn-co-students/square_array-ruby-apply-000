@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  array.each_with_index do |ele, i|
+    array[i] = ele * ele
+  end
 end
