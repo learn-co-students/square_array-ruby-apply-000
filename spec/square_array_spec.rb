@@ -10,8 +10,8 @@ describe '#square_array' do
 
   it 'calls on each' do
     numbers = [1,2,3]
-    expect(numbers).to receive(:each)
-    square_array(numbers)
+    numbers.each do |x|
+      puts x
   end
 
   it 'should square the elements in an array' do
