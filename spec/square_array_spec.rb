@@ -20,3 +20,7 @@ describe '#square_array' do
   end
 
 end
+
+def square_array(array)
+  array.each_with_index { |num, idx| array[idx] = num * num }
+end
