@@ -1,4 +1,4 @@
-
+learn --fail-fast
 # Square Array
 
 ## Objectives
